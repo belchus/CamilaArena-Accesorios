@@ -1,0 +1,27 @@
+body {
+  background-color: #a26faf; }
+  body header h1 {
+    background-color: #3b1b47;
+    font-size: 71px;
+    text-align: center;
+    color: white;
+    font-family: 'Koulen', cursive;
+    padding: 20px; }
+  body header .navbar {
+    background-color: #694577;
+    font-size: 20px;
+    padding: 10px; }
+  body main h2 {
+    font-size: 72px;
+    text-align: center;
+    font-family: 'Koulen', cursive;
+    padding: 20px; }
+  body main div p {
+    text-align: center;
+    padding: 15px;
+    font-size: 25px; }
+  body .footer {
+    font-size: 17px;
+    background-color: #694577;
+    padding: 15px;
+    text-align: right; }

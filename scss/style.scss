@@ -1,0 +1,51 @@
+@import "utilities/variables";
+
+body {
+    background-color: $color1;
+
+    header {
+        h1 {
+            background-color: $color2;
+            font-size: $medida-titulo - 9;
+            text-align: center;
+            color: white;
+            font-family: 'Koulen', cursive;
+            padding: $medida-parrafo;
+        }
+
+        .navbar {
+            background-color: $color3;
+            font-size: $medida-parrafo;
+            padding: $medida-parrafo - 10;
+        }
+
+    }
+    main{
+        h2 {
+            font-size: $medida-subtitulo + 2;
+            text-align: center;
+            font-family: 'Koulen', cursive;
+            padding: $medida-parrafo;
+        }
+    
+        div {
+            p {
+                text-align: center;
+                padding: $medida-footer;
+                font-size: $medida-parrafo + 5;
+            }
+    
+        }
+    
+}
+
+    .footer {
+        font-size: $medida-footer + 2;
+        background-color: $color3;
+        padding: $medida-footer;
+        text-align: right;
+    }
+
+
+
+}
