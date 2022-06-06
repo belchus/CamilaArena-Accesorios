@@ -1,12 +1,14 @@
+body header .miheader {
+  font-size: 71px;
+  text-align: center;
+  color: white;
+  padding: 20px; }
+
 body {
   background-color: #a26faf; }
-  body header h1 {
+  body header .miheader {
     background-color: #3b1b47;
-    font-size: 71px;
-    text-align: center;
-    color: white;
-    font-family: 'Koulen', cursive;
-    padding: 20px; }
+    font-family: 'Koulen', cursive; }
   body header .navbar {
     background-color: #694577;
     font-size: 20px;
@@ -46,7 +48,7 @@ body {
     body main .madredos .hijodos {
       width: 550px;
       height: 550px;
-      margin: 10px;
+      margin: 15px -5;
       padding: 20px;
       justify-content: center; }
   body .footer {
